@@ -9,6 +9,9 @@ export default {
   name: 'App',
   components: {
     
+  },
+  mounted() {
+    document.title = 'Reaction Test Game'
   }
 }
 </script>
